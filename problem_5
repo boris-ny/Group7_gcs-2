@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Asking for user path
+echo "Enter the path to the directory"
+read path
+#Checking if the path is valid
+case $path in
+    /*) ls $path
+    ;;
+    *) echo "Enter a valid path"
+    ;;
+esac

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Asking for user phrase
+echo "Enter a phrase"
+# Taking input from user
+read text
+# Counting words
+word=$(echo -n "$text" | wc -w)
+# Counting Number of white spaces
+space=$(echo -n "$text" | tr -d '[[:alnum:]]' | wc -c)
+# Output
+echo "The number of words is $word"
+echo "The number of white spaces is $space"
