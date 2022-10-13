@@ -10,8 +10,9 @@ sum=$(echo "$sqrt_a+$sqrt_b" | bc -l)
 echo "The first random number generated is $a"
 sleep 1
 echo "The square root is $sqrt_a"
-sleep 
+sleep 1
 echo "The second random number generated is $b"
 sleep 1
 echo "The square root is $sqrt_b"
+sleep 1
 echo "The sum of the square roots is $sum"
