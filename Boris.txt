@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# Displays 
-Happy New Year Boris!
-May the coming year be full of grand adventures and opportunities 1 time using for loop
-for _ in {1}
-do
-echo "Best School"
-done
